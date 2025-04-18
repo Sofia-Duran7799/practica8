@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Sensor
+comment0.text=\r\n\ Representa\ un\ sensor\ electr\u00F3nico\ especializado\ que\ hereda\ de\ {@link\ ComponenteElectronico}.\r\n\ Capaz\ de\ medir\ y\ reportar\ valores\ espec\u00EDficos\ seg\u00FAn\ su\ tipo\ y\ unidad\ de\ medida\ configurada.\r\n
+comment1.params=tipo\ unidadDeMedida\ valor
+comment1.target=Sensor(java.lang.String,\ java.lang.String,\ int)
+comment1.text=\r\n\ Construye\ un\ sensor\ con\ configuraci\u00F3n\ espec\u00EDfica.\r\n\ \r\n\ @param\ tipo\ \ \ \ \ \ \ \ \ \ \ Tipo\ de\ sensor\ (ej\:\ "temperatura",\ "movimiento",\ "luz")\r\n\ @param\ unidadDeMedida\ Unidad\ de\ medida\ (ej\:\ "\u00B0C",\ "lux",\ "m/s\u00B2")\r\n\ @param\ valor\ \ \ \ \ \ \ \ \ \ Valor\ actual\ de\ la\ medici\u00F3n\ en\ unidades\ enteras\r\n\ @throws\ IllegalArgumentException\ Si\ el\ valor\ es\ negativo\ y\ no\ corresponde\ al\ tipo\ de\ sensor\r\n
+comment2.params=
+comment2.target=java.lang.String\ getTipo()
+comment2.text=\r\n\ @return\ Categor\u00EDa\ funcional\ del\ sensor\ (ej\:\ ambiental,\ mec\u00E1nico,\ \u00F3ptico)\r\n
+comment3.params=
+comment3.target=java.lang.String\ getUnidadDeMedida()
+comment3.text=\r\n\ @return\ Unidad\ de\ medida\ utilizada\ para\ las\ lecturas\ del\ sensor\r\n
+comment4.params=
+comment4.target=int\ getValor()
+comment4.text=\r\n\ @return\ Valor\ actual\ medido\ por\ el\ sensor\ en\ formato\ num\u00E9rico\ entero.\r\n\ \ \ \ \ \ \ \ \ Para\ conversi\u00F3n\ a\ unidades\ reales\ usar\ la\ unidadDeMedida\ correspondiente\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ Devuelve\ una\ representaci\u00F3n\ en\ cadena\ con\ el\ estado\ completo\ del\ sensor.\r\n\ \r\n\ @return\ Cadena\ en\ formato\:\ Sensor{tipo\='X',\ unidadDeMedida\='Y',\ valor\=Z}\r\n\ \ \ \ \ \ \ \ \ donde\ X\ es\ el\ tipo,\ Y\ la\ unidad\ y\ Z\ el\ valor\ num\u00E9rico\r\n
+numComments=6

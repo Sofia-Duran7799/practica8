@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Television
+comment0.text=\r\n\ Representa\ un\ televisor\ como\ dispositivo\ electr\u00F3nico\ de\ consumo\ especializado.\r\n\ Hereda\ de\ {@link\ DispositivoElectronicoDeConsumo}\ e\ incorpora\ obligatoriamente\ una\ {@link\ Pantalla}.\r\n
+comment1.params=fabricante\ numeroSerie\ marca\ nombre\ costo\ pantalla
+comment1.target=Television(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ float,\ Pantalla)
+comment1.text=\r\n\ Construye\ un\ televisor\ con\ todos\ sus\ atributos\ y\ componente\ de\ pantalla.\r\n\ \r\n\ @param\ fabricante\ \ \ Fabricante\ del\ televisor\ (heredado)\r\n\ @param\ numeroSerie\ \ N\u00FAmero\ de\ serie\ \u00FAnico\ (heredado)\r\n\ @param\ marca\ \ \ \ \ \ \ \ Marca\ comercial\ (heredado)\r\n\ @param\ nombre\ \ \ \ \ \ \ Modelo\ espec\u00EDfico\ (heredado)\r\n\ @param\ costo\ \ \ \ \ \ \ \ Valor\ en\ decimal\ del\ dispositivo\ (heredado)\r\n\ @param\ pantalla\ \ \ \ \ Componente\ de\ pantalla\ integrado\ (no\ puede\ ser\ nulo)\r\n\ @throws\ IllegalArgumentException\ Si\ la\ pantalla\ es\ {@code\ null}\r\n
+comment2.params=
+comment2.target=Pantalla\ getPantalla()
+comment2.text=\r\n\ Obtiene\ el\ componente\ de\ pantalla\ integrado\ en\ el\ televisor.\r\n\ \r\n\ @return\ La\ {@link\ Pantalla}\ asociada\ al\ dispositivo\ (siempre\ presente)\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ Devuelve\ una\ representaci\u00F3n\ completa\ del\ televisor\ incluyendo\:\r\n\ -\ Atributos\ heredados\ del\ dispositivo\ base\r\n\ -\ Estado\ de\ encendido\r\n\ -\ Especificaciones\ de\ la\ pantalla\ integrada\r\n\ \r\n\ @return\ Cadena\ con\ formato\:\ Television{...,\ pantalla\=X}\ donde\ X\ son\ los\ detalles\ de\ la\ pantalla\r\n
+numComments=4

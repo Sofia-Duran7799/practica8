@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Microprocesador
+comment0.text=\r\n\ Representa\ un\ microprocesador\ como\ componente\ electr\u00F3nico\ especializado.\r\n\ Hereda\ de\ {@link\ ComponenteElectronico}\ y\ a\u00F1ade\ caracter\u00EDsticas\ espec\u00EDficas\r\n\ de\ rendimiento\ como\ memoria\ cache\ y\ velocidad\ de\ reloj.\r\n
+comment1.params=cacheRAM\ velocidadHz
+comment1.target=Microprocesador(int,\ long)
+comment1.text=\r\n\ Construye\ un\ microprocesador\ con\ especificaciones\ t\u00E9cnicas.\r\n\ \r\n\ @param\ cacheRAM\ \ \ \ Cantidad\ de\ memoria\ cache\ integrada\ en\ megabytes\ (MB)\r\n\ @param\ velocidadHz\ Velocidad\ de\ reloj\ en\ hertzios\ (Hz).\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Para\ mejor\ legibilidad\ usar\ notaci\u00F3n\ cient\u00EDfica\ (ej\:\ 3_200_000_000L\ para\ 3.2\ GHz)\r\n
+comment2.params=
+comment2.target=int\ getCacheRAM()
+comment2.text=\r\n\ @return\ La\ memoria\ cache\ integrada\ en\ megabytes\ (MB)\r\n
+comment3.params=
+comment3.target=long\ getVelocidadHz()
+comment3.text=\r\n\ @return\ La\ velocidad\ de\ reloj\ del\ microprocesador\ en\ hertzios\ (Hz).\r\n\ \ \ \ \ \ \ \ \ Para\ obtener\ el\ valor\ en\ GHz\:\ {@code\ getVelocidadHz()\ /\ 1_000_000_000}\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Devuelve\ una\ representaci\u00F3n\ en\ cadena\ con\ las\ especificaciones\ t\u00E9cnicas.\r\n\ \r\n\ @return\ Cadena\ en\ formato\ "Microprocesador{cacheRAM\=X,\ velocidadHz\=Y}"\r\n\ \ \ \ \ \ \ \ \ donde\ X\ es\ el\ valor\ en\ MB\ e\ Y\ la\ velocidad\ en\ Hz\r\n
+numComments=5

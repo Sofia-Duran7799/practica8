@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ComponenteElectronico
+comment0.text=\r\n\ Representa\ un\ componente\ electr\u00F3nico\ que\ puede\ formar\ parte\ de\ un\ dispositivo.\r\n\ Mantiene\ una\ relaci\u00F3n\ bidireccional\ con\ el\ dispositivo\ al\ que\ pertenece.\r\n
+comment1.params=
+comment1.target=DispositivoElectronico\ getEsParteDe()
+comment1.text=\r\n\ Obtiene\ el\ dispositivo\ al\ que\ est\u00E1\ asociado\ este\ componente.\r\n\ \r\n\ @return\ Referencia\ al\ dispositivo\ electr\u00F3nico\ que\ contiene\ este\ componente,\r\n\ \ \ \ \ \ \ \ \ o\ {@code\ null}\ si\ no\ est\u00E1\ asociado\ a\ ning\u00FAn\ dispositivo.\r\n
+comment2.params=dispositivo
+comment2.target=void\ setEsParteDe(DispositivoElectronico)
+comment2.text=\r\n\ Establece\ o\ elimina\ la\ asociaci\u00F3n\ con\ un\ dispositivo\ electr\u00F3nico.\r\n\ <p>\r\n\ Nota\:\ Este\ m\u00E9todo\ normalmente\ deber\u00EDa\ ser\ llamado\ autom\u00E1ticamente\ por\ los\ m\u00E9todos\r\n\ {@code\ agregarComponente()}\ o\ {@code\ quitarComponente()}\ de\ {@link\ DispositivoElectronico}\r\n\ para\ mantener\ la\ consistencia\ bidireccional.\r\n\ \r\n\ @param\ dispositivo\ Dispositivo\ al\ que\ se\ asociar\u00E1\ el\ componente,\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ o\ {@code\ null}\ para\ eliminar\ la\ asociaci\u00F3n\ existente.\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ Devuelve\ una\ representaci\u00F3n\ en\ cadena\ que\ muestra\ el\ nombre\ del\ dispositivo\ asociado.\r\n\ \r\n\ @return\ Cadena\ en\ formato\ "ComponenteElectronico{esParteDe\=NombreDelDispositivo}",\r\n\ \ \ \ \ \ \ \ \ o\ "ComponenteElectronico{esParteDe\=Ninguno}"\ si\ no\ est\u00E1\ asociado\ a\ ning\u00FAn\ dispositivo.\r\n
+numComments=4

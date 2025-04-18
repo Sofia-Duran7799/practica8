@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=DispositivoElectronicoDeConsumo
+comment0.text=\r\n\ Representa\ un\ dispositivo\ electr\u00F3nico\ de\ consumo\ con\ capacidad\ de\ gesti\u00F3n\ de\ estado\ de\ encendido.\r\n\ Hereda\ de\ {@link\ DispositivoElectronico}\ y\ a\u00F1ade\ funcionalidad\ b\u00E1sica\ de\ control\ de\ energ\u00EDa.\r\n\ \r\n\ <p>Esta\ clase\ es\ adecuada\ para\ modelar\ dispositivos\ que\ requieren\ un\ estado\ de\ encendido/apagado\r\n\ como\ electrodom\u00E9sticos,\ equipos\ inform\u00E1ticos\ o\ dispositivos\ m\u00F3viles.</p>\r\n
+comment1.params=fabricante\ numeroSerie\ marca\ nombre\ costo
+comment1.target=DispositivoElectronicoDeConsumo(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ float)
+comment1.text=\r\n\ Construye\ un\ dispositivo\ electr\u00F3nico\ de\ consumo\ apagado\ por\ defecto.\r\n\ \r\n\ @param\ fabricante\ \ \ Fabricante\ del\ dispositivo\ (heredado)\r\n\ @param\ numeroSerie\ \ N\u00FAmero\ de\ serie\ \u00FAnico\ (heredado)\r\n\ @param\ marca\ \ \ \ \ \ \ \ Marca\ comercial\ (heredado)\r\n\ @param\ nombre\ \ \ \ \ \ \ Nombre/modelo\ (heredado)\r\n\ @param\ costo\ \ \ \ \ \ \ \ Costo\ inicial\ en\ decimal\ (heredado)\r\n
+comment2.params=
+comment2.target=void\ encender()
+comment2.text=\r\n\ Enciende\ el\ dispositivo,\ estableciendo\ su\ estado\ de\ energ\u00EDa\ a\ activado.\r\n\ No\ tiene\ efecto\ si\ el\ dispositivo\ ya\ est\u00E1\ encendido.\r\n
+comment3.params=
+comment3.target=void\ apagar()
+comment3.text=\r\n\ Apaga\ el\ dispositivo,\ estableciendo\ su\ estado\ de\ energ\u00EDa\ a\ desactivado.\r\n\ No\ tiene\ efecto\ si\ el\ dispositivo\ ya\ est\u00E1\ apagado.\r\n
+comment4.params=
+comment4.target=boolean\ isEncendido()
+comment4.text=\r\n\ Verifica\ el\ estado\ actual\ de\ energ\u00EDa\ del\ dispositivo.\r\n\ \r\n\ @return\ {@code\ true}\ si\ el\ dispositivo\ est\u00E1\ encendido,\r\n\ \ \ \ \ \ \ \ \ {@code\ false}\ si\ est\u00E1\ apagado\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ Devuelve\ una\ representaci\u00F3n\ en\ cadena\ que\ incluye\ los\ atributos\ heredados\r\n\ m\u00E1s\ el\ estado\ actual\ de\ energ\u00EDa.\r\n\ \r\n\ @return\ Cadena\ con\ formato\:\ "DispositivoElectronico{...},\ encendido\=X"\r\n\ \ \ \ \ \ \ \ \ donde\ X\ es\ el\ estado\ booleano\ de\ encendido\r\n
+numComments=6

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Smartphone
+comment0.text=\r\n\ Representa\ un\ smartphone\ como\ computadora\ m\u00F3vil\ especializada.\r\n\ Hereda\ de\ {@link\ Computadora}\ e\ incorpora\ componentes\ espec\u00EDficos\ como\ sensor\ biom\u00E9trico\ y\ pantalla\ t\u00E1ctil.\r\n\ <p>\r\n\ Modela\ dispositivos\ m\u00F3viles\ modernos\ con\ capacidades\ avanzadas\ de\ autenticaci\u00F3n\ y\ visualizaci\u00F3n.\r\n\ </p>\r\n
+comment1.params=fabricante\ numeroSerie\ marca\ nombre\ costo\ cpu\ ramMB\ sensorDeHuella\ pantalla
+comment1.target=Smartphone(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ float,\ Microprocesador,\ long,\ Sensor,\ Pantalla)
+comment1.text=\r\n\ Construye\ un\ smartphone\ con\ todos\ sus\ componentes\ esenciales.\r\n\ \r\n\ @param\ fabricante\ \ \ \ \ \ \ Fabricante\ del\ dispositivo\ (heredado)\r\n\ @param\ numeroSerie\ \ \ \ \ \ N\u00FAmero\ de\ serie\ \u00FAnico\ (heredado)\r\n\ @param\ marca\ \ \ \ \ \ \ \ \ \ \ \ Marca\ comercial\ (heredado)\r\n\ @param\ nombre\ \ \ \ \ \ \ \ \ \ \ Modelo\ espec\u00EDfico\ (heredado)\r\n\ @param\ costo\ \ \ \ \ \ \ \ \ \ \ \ Valor\ en\ decimal\ del\ dispositivo\ (heredado)\r\n\ @param\ cpu\ \ \ \ \ \ \ \ \ \ \ \ \ \ Microprocesador\ principal\ (heredado)\r\n\ @param\ ramMB\ \ \ \ \ \ \ \ \ \ \ \ Memoria\ RAM\ en\ megabytes\ (heredado)\r\n\ @param\ sensorDeHuella\ \ \ Sensor\ biom\u00E9trico\ de\ autenticaci\u00F3n\ (no\ puede\ ser\ nulo)\r\n\ @param\ pantalla\ \ \ \ \ \ \ \ \ Componente\ de\ pantalla\ t\u00E1ctil\ (no\ puede\ ser\ nulo)\r\n\ @throws\ IllegalArgumentException\ Si\ el\ sensor\ o\ la\ pantalla\ son\ {@code\ null}\r\n
+comment2.params=
+comment2.target=Sensor\ getSensorDeHuella()
+comment2.text=\r\n\ Obtiene\ el\ sensor\ biom\u00E9trico\ integrado\ en\ el\ dispositivo.\r\n\ \r\n\ @return\ {@link\ Sensor}\ especializado\ en\ reconocimiento\ de\ huella\ digital\r\n
+comment3.params=
+comment3.target=Pantalla\ getPantalla()
+comment3.text=\r\n\ Obtiene\ la\ pantalla\ t\u00E1ctil\ del\ smartphone.\r\n\ \r\n\ @return\ {@link\ Pantalla}\ con\ caracter\u00EDsticas\ espec\u00EDficas\ para\ uso\ m\u00F3vil\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Devuelve\ una\ representaci\u00F3n\ completa\ que\ incluye\:\r\n\ -\ Atributos\ heredados\ de\ la\ computadora\r\n\ -\ Especificaciones\ del\ sensor\ biom\u00E9trico\r\n\ -\ Detalles\ de\ la\ pantalla\ integrada\r\n\ \r\n\ @return\ Cadena\ con\ formato\:\ Smartphone{...,\ sensorDeHuella\=X,\ pantalla\=Y}\r\n
+numComments=5
